@@ -1,0 +1,470 @@
+body,html{
+    background-color: white;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    width: 100%;
+    height: 100%;
+}
+*{
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(180,180,180);
+    border-radius: 10px;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(190,190,190);
+}
+::-webkit-scrollbar-thumb:active{
+    background-color: rgb(200,200,200)
+}
+#main-div{
+    position: absolute;
+    top: 390px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 750px;
+    background-color: rgb(240,240,240);
+    border-radius: 25px;
+}
+#UserImage{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    pointer-events: none;
+}
+#UserName{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+#HelloWorldText{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+#btn1{
+    position: absolute;
+    top: 55%;
+    left: calc(50% + 150px);
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(196, 159, 255);
+    border: none;
+    color: white;
+    font-size: 18px;
+    transition: background-color 0.5s ease;
+}
+#btn1:hover{
+    background-color: rgb(210,142,255);
+}
+#btn1:active{
+    background-color: rgb(210,102,255);
+}
+#btn2{
+    position: absolute;
+    top: 55%;
+    left: calc(50% - 150px);
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(196, 159, 255);
+    border: none;
+    color: white;
+    font-size: 18px;
+    transition: background-color 0.5s ease;
+}
+#btn2:hover{
+    background-color: rgb(210,142,255);
+}
+#btn2:active{
+    background-color: rgb(210,102,255);
+}
+#text2{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Consolas;
+    font-size: 30px;
+}
+#text3{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    white-space: nowrap;
+}
+#div1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(240,240,240);
+}
+#gitcode-btn{
+    position: absolute;
+    top: 82.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(196, 159, 255);
+    border: none;
+    color: white;
+    font-size: 18px;
+    transition: background-color 0.5s ease;
+}
+#gitcode-btn:hover{
+    background-color: rgb(210,142,255);
+}
+#gitcode-btn:active{
+    background-color: rgb(210,102,255);
+}
+#GitCode-Msg{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 17px;
+    background-color: rgb(201, 121, 255);
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+#project-div{
+    position: absolute;
+    top: 1150px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(240,240,240);
+    width: 90%;
+    height: 700px;
+    border-radius: 25px;
+    transition: height 0.5s ease,
+    top 0.5s ease;
+}
+#contact-div{
+    position: absolute;
+    top: 1670px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(240,240,240);
+    width: 90%;
+    height: 270px;
+    border-radius: 25px;
+    transition: height 0.5s ease,
+    top 0.5s ease;
+    text-align: center;
+}
+#contact-div h1,#contact-div p{
+    margin-top: 5px;
+}
+#contact-div p{
+    font-size: 20px;
+}
+#contact-div a{
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: rgb(150,0,255);
+    font-size: 17px;
+}
+#contact-div a:hover{
+    color: rgb(0,0,255);
+}
+#project-text{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+#ghvswebtpc{
+    top: 250px;
+    left: 50%;
+}
+#ghvswebtpc-desktop{
+    top: 460px;
+    left: 50%;
+}
+#look-more{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 50px;
+    background-color: rgb(196, 159, 255);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    visibility: visible;
+    opacity: 1;
+    transition: background-color 0.5s ease;
+}
+#look-more:hover{
+    background-color: rgb(191, 96, 255);
+}
+#look-more:active{
+    background-color: rgb(174, 53, 255)
+}
+#more-project {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    overflow-y: auto;
+    scrollbar-width: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#more-project-title{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+#more-ghvswebtpc{
+    top: 250px;
+    left: 50%;
+}
+#more-ghvswebtpc-desktop{
+    top: 450px;
+    left: 50%;
+}
+#more-t-pagecode-github-io{
+    left: 50%;
+    top: 650px;
+}
+#more-git-name-email-tool{
+    left: 50%;
+    top: 850px;
+}
+#more-t-codesystem{
+    left: 50%;
+    top: 1050px;
+}
+#more-start-http-server{
+    left: 50%;
+    top: 1250px;
+}
+#more-start-https-server{
+    left: 50%;
+    top: 1450px;
+}
+#more-guides{
+    left: 50%;
+    top: 1650px;
+}
+#more-t-pagecode-netlify-app{
+    left: 50%;
+    top: 1850px;
+}
+#more-1998-2026-web-page{
+    left: 50%;
+    top: 2050px;
+}
+#more-font-test{
+    left: 50%;
+    top: 2250px;
+}
+#more-blue-screen{
+    left: 50%;
+    top: 2450px;
+}
+#more-windows12-concept{
+    left: 50%;
+    top: 2650px;
+}
+#more-windows12-horror{
+    left: 50%;
+    top: 2850px;
+}
+#more-windows10-2026{
+    left: 50%;
+    top: 3050px;
+}
+#more-js-create-html-elements{
+    left: 50%;
+    top: 3250px;
+}
+#more-t-pagecode-new-tab{
+    left: 50%;
+    top: 3450px;
+}
+#more-return{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 50px;
+    background-color: rgb(196, 159, 255);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    visibility: visible;
+    opacity: 1;
+    transition: background-color 0.5s ease;
+}
+#more-return:hover{
+    background-color: rgb(191, 96, 255);
+}
+#more-return:active{
+    background-color: rgb(174, 53, 255)
+}
+#message-i{
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    background-color: rgb(235, 127, 255);
+    width: 700px;
+    height: 180px;
+}
+.project-title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 40px;
+    white-space: nowrap;
+}
+.project-info{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.project-go{
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(196, 108, 255);
+    border: none;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
+}
+.project-go:hover{
+    background-color: rgb(181, 70, 255);
+}
+.project-go:active{
+    background-color: rgb(171, 44, 255);
+}
+.project-github{
+    position: absolute;
+    top: 83%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(196, 108, 255);
+    border: none;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
+}
+.project-github:hover{
+    background-color: rgb(181, 70, 255);
+}
+.project-github:active{
+    background-color: rgb(171, 44, 255);
+}
+#load-div{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    transition: opacity 0.5s ease;
+}
+#load-bar{
+    position: absolute;
+    top: calc(50% + 35px);
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(240,240,240);
+    width: 300px;
+    height: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#load{
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(200,0,255);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    animation: load 1s infinite;
+}
+@keyframes load{
+    from{
+        left: -50%;
+    }
+    to{
+        left: 150%;
+    }
+}
+#load-text{
+    position: absolute;
+    top: calc(50% - 35px);
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
